@@ -1,0 +1,8 @@
+Lab exercises
+
+Our goal is to write a program to determine how to get from A to B, either fast or cheap. We first need some test data.
+
+Design and implement a data type WeightedGraph that uses either an adjacency list or an adjacency matrix. How are you going to store the weights?
+Write a class that generates a random weighted graph. You will need a constructor that takes the number of vertices for your graph and the number of edges. For example, you might want to have RandomGraph (20, 45) generate a graph with 20 vertices and 40 edges which randomly connect those vertices. You should give your vertices names, either really boring ones like "A", "B", "C" or make up random names for example by choosing random words in Wikipedia articles. Generate the edges by choosing 2 vertices at random, and then assigning them a random weight.The bored can explore the Stanford collection of graphs and see if they can find something interesting.
+Now write a method that will take a graph, pick two vertices at random, and find the shortest path between the vertices. Make a method to print out the path in a readable format. What class will these methods belong to?
+Finally, write a method that takes a graph, picks two vertices at random, and finds the cheapest path between the two.
